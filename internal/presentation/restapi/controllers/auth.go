@@ -38,7 +38,7 @@ func (ctrl *AuthController) Register(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusOK, responses.Make(
-		http.StatusOK, "welcome", gin.H{"token": token},
+		http.StatusOK, "welcome "+data.Name, gin.H{"token": token},
 	))
 }
 
