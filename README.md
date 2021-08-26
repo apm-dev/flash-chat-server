@@ -1,5 +1,4 @@
 # flash-chat-server
-## Simple golang P2P chat server
 > for teaching purpose !
 
 **Optional:** You can change configurations by adding .env file beside the *`runnable`* file or *`main.go`* file.
