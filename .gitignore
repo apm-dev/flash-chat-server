@@ -59,3 +59,5 @@ tags
 src/.env
 src/.DS_Store
 .DS_Store
+
+/tmp

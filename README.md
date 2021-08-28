@@ -91,4 +91,14 @@ There are 4 http methods
 
 // if I want to start chat with "apm", url should be:
 // http://<host:port>/chats/apm
+
+// WS send message as raw string
+// "hello world!"
+
+// WS received message structure
+{
+  "from": "apm",
+  "body": "hello world!",
+  "sent_at": 1630121139  // UTC unix time 
+}
 ```
